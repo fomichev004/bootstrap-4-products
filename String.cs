@@ -14,7 +14,7 @@ NameDriver_str = input('Введите ФИО')
 
 print ( '{}'.format( NameDriver_str ).title().strip() )
 
-Car_str = input('Введите номер машины')
+Car_str = input('Введите номер авто')
 print ( '{}'.format( Car_str ).upper().replace(" ", " / ").replace("-", "/").replace("  ", " ").strip() )
 
 Number_int = input('Телефон')
